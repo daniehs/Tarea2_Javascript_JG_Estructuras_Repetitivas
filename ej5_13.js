@@ -7,21 +7,22 @@
 const nelementos=15;
 let arreglo_notas=[];
 let suma_notas=0;
-let promedio;
+let promedio=0;
 let contador=0;
 
 //declaracion estatica de las notas
 arreglo_notas=[12,13,15,11,14,12.5,15,16,17,11.5,13.5,14,15.5,16.7,12.5];
 
+//se guarda la suma de todas las notas en la variable suma_notas
 for (let i=0;i<nelementos;i++){
   suma_notas+=arreglo_notas[i];
 }
 
+//se calcula el promedio
 promedio=suma_notas/arreglo_notas.length;
 
+//se calcula la nota mayor
 for (let i=0;i<nelementos;i++){
-  suma_notas+=arreglo_notas[i];
-
   if (arreglo_notas[i]>promedio){
     contador++;
    }
