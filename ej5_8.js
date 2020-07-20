@@ -11,7 +11,6 @@
 const nelementos=10;
 const primer_arreglo= [];
 const segundo_arreglo= [];
-let temp;
 
 for (let i=0;i<nelementos;i++){
   primer_arreglo[i]=prompt(
